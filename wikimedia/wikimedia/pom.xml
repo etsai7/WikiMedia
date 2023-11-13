@@ -13,6 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-wikimedia</name>
 	<description>Wikimedia data stream using Kafka</description>
+	<modules>
+		<module>kafka-producer-wikimedia</module>
+	</modules>
+
+	<!--Since this will be the parent project, need to make the packaging as pom-->
+	<packaging>pom</packaging>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
