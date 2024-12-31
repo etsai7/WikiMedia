@@ -14,10 +14,10 @@ import java.util.Map;
 
 @Configuration
 public class WikiMediaProducerConfig {
-    @Value("${spring.kafka.bootstrap-servers}")
+    @Value("${spring.kafka.producer.bootstrap-servers}")
     private String bootstrapServers;
 
-    @Value("${spring.kafka.consumer.group-id}")
+    @Value("${spring.kafka.producer.group-id}")
     private String groupId;
 
     @Bean
