@@ -17,6 +17,7 @@
 <!--	This lists out the child modules created in this project	-->
 	<modules>
 		<module>kafka-producer-wikimedia</module>
+		<module>kafka-consumer-database</module>
 	</modules>
 
 <!--	Since this will be the parent project, need to make the packaging as pom	-->
